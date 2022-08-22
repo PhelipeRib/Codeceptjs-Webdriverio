@@ -1,0 +1,89 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1661195493123' stop='1661195542616'>
+    <name>Login:</name>
+    <title>Login:</title>
+    <test-cases>
+        <test-case start='1661195498561' status='failed' stop='1661195515748'>
+            <name>Validade Empty E-mail on Create Account</name>
+            <title>Validade Empty E-mail on Create Account</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1661195505403' status='passed' stop='1661195513326'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1661195513330' status='passed' stop='1661195515630'>
+                    <name>I click ".login"</name>
+                    <title>I click ".login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1661195515631' status='passed' stop='1661195515679'>
+                    <name>I click "#SubmitCreate"</name>
+                    <title>I click "#SubmitCreate"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1661195515679' status='failed' stop='1661195515747'>
+                    <name>I see "Invalid email address."</name>
+                    <title>I see "Invalid email address."</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='e19a6020-8aa4-4ba6-86ce-f687c1a0bd44-attachment.png' type='image/png' size='80165'/>
+                <attachment title='Last Seen Screenshot' source='7acaa299-f5da-4476-bc75-85e5a65e7c25-attachment.png' type='image/png' size='80165'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1661195516635' status='passed' stop='1661195525685'>
+            <name>Validade Empty E-mail on Create Account2</name>
+            <title>Validade Empty E-mail on Create Account2</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1661195518479' status='passed' stop='1661195523262'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1661195523263' status='passed' stop='1661195525685'>
+                    <name>I click ".login"</name>
+                    <title>I click ".login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1661195526288' status='passed' stop='1661195541981'>
+            <name>Validade Empty E-mail on Create Account3</name>
+            <title>Validade Empty E-mail on Create Account3</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1661195528594' status='passed' stop='1661195533454'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1661195533456' status='passed' stop='1661195541981'>
+                    <name>I click ".login"</name>
+                    <title>I click ".login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

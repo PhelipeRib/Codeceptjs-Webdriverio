@@ -1,0 +1,222 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1660853946349' stop='1660854069345'>
+    <name>Create User:</name>
+    <title>Create User:</title>
+    <test-cases>
+        <test-case start='1660853955451' status='passed' stop='1660854004885'>
+            <name>Login With Sucess</name>
+            <title>Login With Sucess</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1660853960658' status='passed' stop='1660853983554'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1660853983554' status='passed' stop='1660853983564'>
+                    <name>I set cookie [{"domain":".automationpractice.com","expiry":1662579385,"httpOnly":true,"name":"PrestaShop-a30a9934ef476d11b6cc3c983616e364","path":"/","secure":false,"value":"iJZ0%2BwRebP0Y5skyN%2FLUsmTuxM6VIJOsLPc0avWoQDOT9AiALvsjNUG593qtz%2Fjeezvdn%2Fjto8ROFwA1OAmynGix1tQF%2B%2FUeGCJYTY3CCske9D74FzjPf8nhatrBohF6Mlo%2BH%2F4bQuWM2stBSEYaAKZXGYeobFVG4MxmXZlwdfxUyS%2BneFSSbaGcaD9DiYekAPQxZW4tay4WCZQM4GXM988Jxayil%2Bj7HNBxKTrrvbxbQQRXORoP%2BT%2BcKZYT8ra34mXdd%2BAOwh5D0mHxOuwUDO2c9%2FpokDXnmUxMQSYI1Wpk2fEYmnmGtmGlXuMz0K4dPCixpSBHsiXbICNrBcDVzCJ2SY5eW3D8GEelr7ttCExT1p99Bls6mQnvW3BgpTKj9%2BofRSMuQrxP8xGz119P4zWvf63AApMhqU3Vh97P2vA%3D000311"}]</name>
+                    <title>I set cookie [{"domain":".automationpractice.com","expiry":1662579385,"httpOnly":true,"name":"PrestaShop-a30a9934ef476d11b6cc3c983616e364","path":"/","secure":false,"value":"iJZ0%2BwRebP0Y5skyN%2FLUsmTuxM6VIJOsLPc0avWoQDOT9AiALvsjNUG593qtz%2Fjeezvdn%2Fjto8ROFwA1OAmynGix1tQF%2B%2FUeGCJYTY3CCske9D74FzjPf8nhatrBohF6Mlo%2BH%2F4bQuWM2stBSEYaAKZXGYeobFVG4MxmXZlwdfxUyS%2BneFSSbaGcaD9DiYekAPQxZW4tay4WCZQM4GXM988Jxayil%2Bj7HNBxKTrrvbxbQQRXORoP%2BT%2BcKZYT8ra34mXdd%2BAOwh5D0mHxOuwUDO2c9%2FpokDXnmUxMQSYI1Wpk2fEYmnmGtmGlXuMz0K4dPCixpSBHsiXbICNrBcDVzCJ2SY5eW3D8GEelr7ttCExT1p99Bls6mQnvW3BgpTKj9%2BofRSMuQrxP8xGz119P4zWvf63AApMhqU3Vh97P2vA%3D000311"}]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1660853983565' status='passed' stop='1660854004759'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1660854004759' status='passed' stop='1660854004884'>
+                    <name>I see "Eduardo Finotti"</name>
+                    <title>I see "Eduardo Finotti"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1660854005514' status='passed' stop='1660854068728'>
+            <name>Create a New User</name>
+            <title>Create a New User</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1660854010408' status='passed' stop='1660854036906'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1660854036906' status='passed' stop='1660854046513'>
+                    <name>home_page: acessLoginPage </name>
+                    <title>home_page: acessLoginPage </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1660854036906' status='passed' stop='1660854046513'>
+                            <name>I click ".login"</name>
+                            <title>I click ".login"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1660854046513' status='passed' stop='1660854046667'>
+                    <name>login_page: submitCreateNewAccount "Jermain_Pfannerstill48@gmail.com"</name>
+                    <title>login_page: submitCreateNewAccount "Jermain_Pfannerstill48@gmail.com"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1660854046513' status='passed' stop='1660854046614'>
+                            <name>I fill field "#email_create", "Jermain_Pfannerstill48@gmail.com"</name>
+                            <title>I fill field "#email_create", "Jermain_Pfannerstill48@gmail.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1660854046614' status='passed' stop='1660854046666'>
+                            <name>I click "#SubmitCreate"</name>
+                            <title>I click "#SubmitCreate"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1660854046667' status='passed' stop='1660854055109'>
+                    <name>create_user_page: fillFieldsCreateUser "Vincenzo", "Quigley"</name>
+                    <title>create_user_page: fillFieldsCreateUser "Vincenzo", "Quigley"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1660854046667' status='passed' stop='1660854054182'>
+                            <name>I wait for element "#customer_firstname", 10</name>
+                            <title>I wait for element "#customer_firstname", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1660854054183' status='passed' stop='1660854054270'>
+                            <name>I see "CREATE AN ACCOUNT"</name>
+                            <title>I see "CREATE AN ACCOUNT"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1660854054270' status='passed' stop='1660854054309'>
+                            <name>I click "#id_gender1"</name>
+                            <title>I click "#id_gender1"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1660854054309' status='passed' stop='1660854054376'>
+                            <name>I fill field "#customer_firstname", "Vincenzo"</name>
+                            <title>I fill field "#customer_firstname", "Vincenzo"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1660854054376' status='passed' stop='1660854054468'>
+                            <name>I fill field "#customer_lastname", "Quigley"</name>
+                            <title>I fill field "#customer_lastname", "Quigley"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1660854054468' status='passed' stop='1660854054534'>
+                            <name>I fill field "passwd", *****</name>
+                            <title>I fill field "passwd", *****</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1660854054534' status='passed' stop='1660854054562'>
+                            <name>I scroll to "#address1"</name>
+                            <title>I scroll to "#address1"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1660854054562' status='passed' stop='1660854054633'>
+                            <name>I select option "#days", "1"</name>
+                            <title>I select option "#days", "1"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1660854054633' status='passed' stop='1660854054703'>
+                            <name>I select option "#months", "5"</name>
+                            <title>I select option "#months", "5"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1660854054703' status='passed' stop='1660854054756'>
+                            <name>I select option "#years", "1992"</name>
+                            <title>I select option "#years", "1992"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1660854054757' status='passed' stop='1660854054830'>
+                            <name>I fill field "#address1", "Rua do Eduardo, 555"</name>
+                            <title>I fill field "#address1", "Rua do Eduardo, 555"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1660854054830' status='passed' stop='1660854054905'>
+                            <name>I fill field "#city", "Florianópolis"</name>
+                            <title>I fill field "#city", "Florianópolis"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1660854054905' status='passed' stop='1660854054957'>
+                            <name>I select option "#id_state", "Alabama"</name>
+                            <title>I select option "#id_state", "Alabama"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1660854054957' status='passed' stop='1660854054964'>
+                            <name>I scroll page to bottom </name>
+                            <title>I scroll page to bottom </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1660854054964' status='passed' stop='1660854055034'>
+                            <name>I fill field "#postcode", "00000"</name>
+                            <title>I fill field "#postcode", "00000"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1660854055034' status='passed' stop='1660854055109'>
+                            <name>I fill field "#phone_mobile", "+55 048 999999999"</name>
+                            <title>I fill field "#phone_mobile", "+55 048 999999999"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1660854055109' status='passed' stop='1660854068660'>
+                    <name>create_user_page: createUser </name>
+                    <title>create_user_page: createUser </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1660854055109' status='passed' stop='1660854068660'>
+                            <name>I click "Register"</name>
+                            <title>I click "Register"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1660854068660' status='passed' stop='1660854068728'>
+                    <name>my_account_page: validateUserLogged "Vincenzo", "Quigley"</name>
+                    <title>my_account_page: validateUserLogged "Vincenzo", "Quigley"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1660854068660' status='passed' stop='1660854068677'>
+                            <name>I wait for element ".header_user_info"</name>
+                            <title>I wait for element ".header_user_info"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1660854068677' status='passed' stop='1660854068728'>
+                            <name>I see "Vincenzo Quigley"</name>
+                            <title>I see "Vincenzo Quigley"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

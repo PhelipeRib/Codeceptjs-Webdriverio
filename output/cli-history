@@ -1,0 +1,6 @@
+
+
+<<< Recorded commands on Fri Jun 03 2022 11:57:37 GMT-0300 (Horário Padrão de Brasília)
+ console.log('hello')
+ I.click('.login')
+I.click('.login')

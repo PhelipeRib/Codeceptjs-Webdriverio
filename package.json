@@ -1,0 +1,21 @@
+{
+  "name": "automacao-teste",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Phelipe",
+  "license": "ISC",
+  "description": "projeto de automacao de testes",
+  "devDependencies": {
+    "codeceptjs": "^3.3.4",
+    "faker": "^5.5.3",
+    "webdriverio": "^7.19.1"
+  },
+  "dependencies": {
+    "@wdio/selenium-standalone-service": "^7.19.1",
+    "gerador-validador-cpf": "^5.0.2",
+    "mochawesome": "^7.1.3"
+  }
+}
